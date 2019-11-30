@@ -16,7 +16,7 @@ public class ImperativeVsDeclarativeExample2 {
 
         List<Integer> integerList = Arrays.asList(1, 2, 3, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10);
 
-        /**
+        /*
          * Imperative approach
          */
 
@@ -29,7 +29,7 @@ public class ImperativeVsDeclarativeExample2 {
 
         System.out.println("Unique List 1: " + uniqueList);
 
-        /**
+        /*
          * Declarative approach
          */
 

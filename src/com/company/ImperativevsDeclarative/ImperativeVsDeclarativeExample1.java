@@ -6,7 +6,7 @@ public class ImperativeVsDeclarativeExample1 {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Imperative - HOW style of programming
          */
 
@@ -17,7 +17,7 @@ public class ImperativeVsDeclarativeExample1 {
         System.out.println("Sum using imperative approach: " + imperativeSum);
 
 
-        /**
+        /*
          * Declarative - WHAT style of programming
          */
 
