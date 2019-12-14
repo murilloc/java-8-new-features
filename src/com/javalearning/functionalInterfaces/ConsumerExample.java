@@ -53,6 +53,8 @@ public class ConsumerExample {
     }
 
 
+
+
     public static void printStudents() {
 
         studentList.forEach(studentConsumer);
