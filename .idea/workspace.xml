@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c11aff5f-f77e-4547-af3a-bbc3e35beda4" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c11aff5f-f77e-4547-af3a-bbc3e35beda4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/lambdas/ComparatorLambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/lambdas/RunnableLambdaExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNewFeatures/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNewFeatures/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaNewFeatures/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalearning/ImperativevsDeclarative/ImperativeVsDeclarativeExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ImperativevsDeclarative/ImperativeVsDeclarativeExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalearning/ImperativevsDeclarative/ImperativeVsDeclarativeExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalearning/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +53,36 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.ImperativeVsDeclarativeExample2">
-    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ImperativevsDeclarative.ImperativeVsDeclarativeExample1" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="RunnableLambdaExample1" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ComparatorLambdaExample">
+    <configuration name="ComparatorLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.lambdas.ComparatorLambdaExample" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ImperativevsDeclarative.*" />
+          <option name="PATTERN" value="com.javalearning.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImperativeVsDeclarativeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.ImperativevsDeclarative.ImperativeVsDeclarativeExample1" />
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalearning.ImperativevsDeclarative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="ImperativeVsDeclarativeExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ImperativevsDeclarative.ImperativeVsDeclarativeExample2" />
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.ImperativevsDeclarative.ImperativeVsDeclarativeExample2" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.ImperativevsDeclarative.*" />
+          <option name="PATTERN" value="com.javalearning.ImperativevsDeclarative.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,7 +104,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.Main" />
       <module name="JavaNewFeatures" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -89,13 +113,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunnableLambdaExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.lambdas.RunnableLambdaExample1" />
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalearning.lambdas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
       <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
+      <item itemvalue="Application.RunnableLambdaExample1" />
+      <item itemvalue="Application.ComparatorLambdaExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorLambdaExample" />
+        <item itemvalue="Application.RunnableLambdaExample1" />
         <item itemvalue="Application.ImperativeVsDeclarativeExample2" />
         <item itemvalue="Application.ImperativeVsDeclarativeExample1" />
         <item itemvalue="Application.Main" />
@@ -125,44 +166,89 @@
       <option name="presentableId" value="Default" />
       <updated>1575122258540</updated>
       <workItem from="1575122260145" duration="1836000" />
+      <workItem from="1575158713222" duration="183000" />
+      <workItem from="1575158984167" duration="977000" />
+      <workItem from="1575159979957" duration="960000" />
+      <workItem from="1575500925408" duration="92000" />
+      <workItem from="1576335700443" duration="2215000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1575128445440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575128445440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="432" y="169" key="#Customize_Threads_View" timestamp="1576336533366">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="432" y="169" key="#Customize_Threads_View/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336533366" />
     <state x="432" y="168" key="#Project_Structure" timestamp="1575122304322">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="432" y="168" key="#Project_Structure/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575122304322" />
-    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1575128374612">
+    <state x="645" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1575159667882">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128374612" />
-    <state x="620" y="251" key="FileChooserDialogImpl" timestamp="1575128297732">
+    <state x="645" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575159667882" />
+    <state x="581" y="394" width="517" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575128773427">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="620" y="251" key="FileChooserDialogImpl/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128297732" />
-    <state width="1637" height="170" key="GridCell.Tab.0.bottom" timestamp="1575124155582">
+    <state x="581" y="394" width="517" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128773427" />
+    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1575128442061">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575124155582" />
-    <state width="1637" height="170" key="GridCell.Tab.0.center" timestamp="1575124155582">
+    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128442061" />
+    <state x="620" y="251" key="FileChooserDialogImpl" timestamp="1576336979802">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="170" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575124155582" />
-    <state width="1637" height="170" key="GridCell.Tab.0.left" timestamp="1575124155582">
+    <state x="620" y="251" key="FileChooserDialogImpl/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336979802" />
+    <state width="1639" height="170" key="GridCell.Tab.0.bottom" timestamp="1576337671989">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="170" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575124155582" />
-    <state width="1637" height="170" key="GridCell.Tab.0.right" timestamp="1575124155582">
+    <state width="1639" height="170" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576337671989" />
+    <state width="1639" height="170" key="GridCell.Tab.0.center" timestamp="1576337671988">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="170" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575124155582" />
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1575128399443">
+    <state width="1639" height="170" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576337671988" />
+    <state width="1639" height="170" key="GridCell.Tab.0.left" timestamp="1576337671988">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128399443" />
+    <state width="1639" height="170" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576337671988" />
+    <state width="1639" height="170" key="GridCell.Tab.0.right" timestamp="1576337671989">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1639" height="170" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576337671989" />
+    <state x="386" y="62" width="998" height="708" key="SettingsEditor" timestamp="1576336992420">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="386" y="62" width="998" height="708" key="SettingsEditor/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336992420" />
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1575128452567">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128452567" />
+    <state x="536" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1575501007856">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="536" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575501007856" />
+    <state x="496" y="235" width="672" height="677" key="run.anything.popup" timestamp="1576336552257">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="496" y="235" width="672" height="677" key="run.anything.popup/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336552257" />
+    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup" timestamp="1576336821765">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336821765" />
   </component>
 </project>

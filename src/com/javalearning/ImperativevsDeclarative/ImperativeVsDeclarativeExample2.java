@@ -1,11 +1,10 @@
-package com.company.ImperativevsDeclarative;
+package com.javalearning.ImperativevsDeclarative;
 
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * Removing a duplicate from a list of integers
