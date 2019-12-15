@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11aff5f-f77e-4547-af3a-bbc3e35beda4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateStudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateAndConsumerExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="predicateAndconsumer" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -50,7 +54,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -168,7 +172,7 @@
       <workItem from="1575159979957" duration="960000" />
       <workItem from="1575500925408" duration="92000" />
       <workItem from="1576335700443" duration="6558000" />
-      <workItem from="1576358887479" duration="5506000" />
+      <workItem from="1576358887479" duration="7710000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1575128445440</created>
@@ -205,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576360169361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate">
+      <created>1576369461270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576369461270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +230,8 @@
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer" />
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface" />
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces" />
+    <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="169" key="#Customize_Threads_View" timestamp="1576336533366">
@@ -230,6 +242,10 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="432" y="168" key="#Project_Structure/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575122304322" />
+    <state x="702" y="132" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1576369643228">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="702" y="132" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369643228" />
     <state x="645" y="219" key="#com.intellij.ide.util.MemberChooser" timestamp="1576340096490">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
@@ -238,38 +254,38 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="581" y="394" width="517" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128773427" />
-    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1576360166793">
+    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1576369458794">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576360166793" />
+    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369458794" />
     <state x="620" y="251" key="FileChooserDialogImpl" timestamp="1576336979802">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="620" y="251" key="FileChooserDialogImpl/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336979802" />
-    <state width="1639" height="269" key="GridCell.Tab.0.bottom" timestamp="1576369240124">
+    <state width="1639" height="269" key="GridCell.Tab.0.bottom" timestamp="1576373511978">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369240124" />
-    <state width="1639" height="269" key="GridCell.Tab.0.center" timestamp="1576369240123">
+    <state width="1639" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373511978" />
+    <state width="1639" height="269" key="GridCell.Tab.0.center" timestamp="1576373511977">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369240123" />
-    <state width="1639" height="269" key="GridCell.Tab.0.left" timestamp="1576369240123">
+    <state width="1639" height="269" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373511977" />
+    <state width="1639" height="269" key="GridCell.Tab.0.left" timestamp="1576373511977">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369240123" />
-    <state width="1639" height="269" key="GridCell.Tab.0.right" timestamp="1576369240124">
+    <state width="1639" height="269" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373511977" />
+    <state width="1639" height="269" key="GridCell.Tab.0.right" timestamp="1576373511977">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369240124" />
-    <state x="386" y="62" width="998" height="708" key="SettingsEditor" timestamp="1576336992420">
+    <state width="1639" height="269" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373511977" />
+    <state x="386" y="62" width="998" height="708" key="SettingsEditor" timestamp="1576369647743">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="386" y="62" width="998" height="708" key="SettingsEditor/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336992420" />
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1576360173998">
+    <state x="386" y="62" width="998" height="708" key="SettingsEditor/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369647743" />
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1576369656871">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576360173998" />
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369656871" />
     <state x="536" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1576358899620">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
