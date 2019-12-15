@@ -8,9 +8,9 @@ import java.util.function.Predicate;
 
 public class PredicateStudentExample {
 
-    private static List<Student> studentList = StudentDataBase.getAllStudents();
-    private static Predicate<Student> studentGradeLevelPredicate = (student) -> student.getGradeLevel() >= 3;
-    private static Predicate<Student> studentGpaPredicate = (student) -> student.getGpa() >= 3.8;
+    static List<Student> studentList = StudentDataBase.getAllStudents();
+    static Predicate<Student> studentGradeLevelPredicate = (student) -> student.getGradeLevel() >= 3;
+    static Predicate<Student> studentGpaPredicate = (student) -> student.getGpa() >= 3.9;
 
     public static void filterStudentByGradeLevel() {
 
@@ -33,20 +33,20 @@ public class PredicateStudentExample {
     }
 
 
-    public static void  filterStudentsByGpaAndGradeLevel(){
+    public static void filterStudentsByGpaAndGradeLevel() {
         System.out.println("------ GPA and Grade Level Predicate -------");
-        studentList.forEach((student ->{
-            if(studentGpaPredicate.and(studentGradeLevelPredicate).test(student)){ // predicate chaining
+        studentList.forEach((student -> {
+            if (studentGpaPredicate.and(studentGradeLevelPredicate).test(student)) { // predicate chaining
                 System.out.println(student);
             }
         }));
 
     }
 
-    public static void  filterStudentsByGpaOrGradeLevel(){
+    public static void filterStudentsByGpaOrGradeLevel() {
         System.out.println("------ GPA or Grade Level Predicate -------");
-        studentList.forEach((student ->{
-            if(studentGpaPredicate.or(studentGradeLevelPredicate).test(student)){ // predicate chaining
+        studentList.forEach((student -> {
+            if (studentGpaPredicate.or(studentGradeLevelPredicate).test(student)) { // predicate chaining
                 System.out.println(student);
             }
         }));
@@ -54,20 +54,20 @@ public class PredicateStudentExample {
     }
 
 
-    public static void  filterStudentsByGpaNorGradeLevel(){
+    public static void filterStudentsByGpaNorGradeLevel() {
         System.out.println("------ GPA nor Grade Level Predicate -------");
-        studentList.forEach((student ->{
-            if(studentGpaPredicate.or(studentGradeLevelPredicate).negate().test(student)){ // predicate chaining
+        studentList.forEach((student -> {
+            if (studentGpaPredicate.or(studentGradeLevelPredicate).negate().test(student)) { // predicate chaining
                 System.out.println(student);
             }
         }));
 
     }
 
-    public static void  filterStudentsByGpaNandGradeLevel(){
+    public static void filterStudentsByGpaNandGradeLevel() {
         System.out.println("------ GPA nand Grade Level Predicate -------");
-        studentList.forEach((student ->{
-            if(studentGpaPredicate.and(studentGradeLevelPredicate).negate().test(student)){ // predicate chaining
+        studentList.forEach((student -> {
+            if (studentGpaPredicate.and(studentGradeLevelPredicate).negate().test(student)) { // predicate chaining
                 System.out.println(student);
             }
         }));

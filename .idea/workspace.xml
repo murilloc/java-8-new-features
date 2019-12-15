@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11aff5f-f77e-4547-af3a-bbc3e35beda4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/AnotherFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/BiFunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/BinaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/FunctionStudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/SupplierExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/UnaryOperatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateAndConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateAndConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateStudentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javalearning/functionalInterfaces/PredicateStudentExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BiPredicate" />
+        <entry key="$PROJECT_DIR$" value="functional-interfaces" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,9 +68,9 @@
       <command value="RunnableLambdaExample1" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.PredicateStudentExample">
-    <configuration name="BiConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.BiConsumerExample" />
+  <component name="RunManager" selected="Application.SupplierExample">
+    <configuration name="BiFunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.BiFunctionExample" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
@@ -75,21 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparatorLambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.lambdas.ComparatorLambdaExample" />
-      <module name="JavaNewFeatures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javalearning.lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.ConsumerExample" />
+    <configuration name="BinaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.BinaryOperatorExample" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.PredicateExample" />
+    <configuration name="FunctionStudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.FunctionStudentExample" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateStudentExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.PredicateStudentExample" />
+    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.SupplierExample" />
+      <module name="JavaNewFeatures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javalearning.functionalInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnaryOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javalearning.functionalInterfaces.UnaryOperatorExample" />
       <module name="JavaNewFeatures" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ComparatorLambdaExample" />
-      <item itemvalue="Application.ConsumerExample" />
-      <item itemvalue="Application.BiConsumerExample" />
-      <item itemvalue="Application.PredicateExample" />
-      <item itemvalue="Application.PredicateStudentExample" />
+      <item itemvalue="Application.FunctionStudentExample" />
+      <item itemvalue="Application.BiFunctionExample" />
+      <item itemvalue="Application.UnaryOperatorExample" />
+      <item itemvalue="Application.BinaryOperatorExample" />
+      <item itemvalue="Application.SupplierExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredicateStudentExample" />
-        <item itemvalue="Application.PredicateExample" />
-        <item itemvalue="Application.BiConsumerExample" />
-        <item itemvalue="Application.ConsumerExample" />
-        <item itemvalue="Application.ComparatorLambdaExample" />
+        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.BinaryOperatorExample" />
+        <item itemvalue="Application.UnaryOperatorExample" />
+        <item itemvalue="Application.BiFunctionExample" />
+        <item itemvalue="Application.FunctionStudentExample" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +179,9 @@
       <workItem from="1575159979957" duration="960000" />
       <workItem from="1575500925408" duration="92000" />
       <workItem from="1576335700443" duration="6558000" />
-      <workItem from="1576358887479" duration="8275000" />
+      <workItem from="1576358887479" duration="9661000" />
+      <workItem from="1576419690230" duration="2856000" />
+      <workItem from="1576422578247" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1575128445440</created>
@@ -223,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576373594487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate&#10;Predicate And Consumer&#10;BiPredicate and BiConsumer">
+      <created>1576374312095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576374312095</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +255,8 @@
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces" />
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate" />
     <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate&#10;Predicate And Consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate&#10;Predicate And Consumer" />
+    <MESSAGE value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate&#10;Predicate And Consumer&#10;BiPredicate and BiConsumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;Lambda&#10;Consumer interface&#10;BiConsumer functional Interfaces&#10;Predicate&#10;Predicate And Consumer&#10;BiPredicate and BiConsumer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="169" key="#Customize_Threads_View" timestamp="1576336533366">
@@ -258,53 +275,61 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="645" y="219" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576340096490" />
+    <state x="520" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576422531575">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="520" y="239" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576422531575" />
     <state x="581" y="394" width="517" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575128773427">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="581" y="394" width="517" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1575128773427" />
-    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1576373591986">
+    <state x="454" y="104" key="CommitChangelistDialog2" timestamp="1576374309595">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373591986" />
+    <state x="454" y="104" key="CommitChangelistDialog2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374309595" />
     <state x="620" y="251" key="FileChooserDialogImpl" timestamp="1576336979802">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="620" y="251" key="FileChooserDialogImpl/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336979802" />
-    <state width="1639" height="269" key="GridCell.Tab.0.bottom" timestamp="1576374178895">
+    <state width="1639" height="269" key="GridCell.Tab.0.bottom" timestamp="1576444791414">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374178895" />
-    <state width="1639" height="269" key="GridCell.Tab.0.center" timestamp="1576374178895">
+    <state width="1639" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576444791414" />
+    <state width="1639" height="269" key="GridCell.Tab.0.center" timestamp="1576444791413">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374178895" />
-    <state width="1639" height="269" key="GridCell.Tab.0.left" timestamp="1576374178895">
+    <state width="1639" height="269" key="GridCell.Tab.0.center/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576444791413" />
+    <state width="1639" height="269" key="GridCell.Tab.0.left" timestamp="1576444791413">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374178895" />
-    <state width="1639" height="269" key="GridCell.Tab.0.right" timestamp="1576374178895">
+    <state width="1639" height="269" key="GridCell.Tab.0.left/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576444791413" />
+    <state width="1639" height="269" key="GridCell.Tab.0.right" timestamp="1576444791414">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1639" height="269" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374178895" />
+    <state width="1639" height="269" key="GridCell.Tab.0.right/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576444791414" />
     <state x="386" y="62" width="998" height="708" key="SettingsEditor" timestamp="1576369647743">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="386" y="62" width="998" height="708" key="SettingsEditor/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576369647743" />
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1576373598680">
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2" timestamp="1576374315073">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373598680" />
-    <state x="536" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1576358899620">
+    <state x="432" y="242" key="Vcs.Push.Dialog.v2/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576374315073" />
+    <state x="536" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1576422578713">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="536" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576358899620" />
+    <state x="536" y="333" key="com.intellij.ide.util.TipDialog/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576422578713" />
+    <state x="4" y="131" key="new project wizard" timestamp="1576375460943">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="4" y="131" key="new project wizard/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576375460943" />
     <state x="496" y="235" width="672" height="677" key="run.anything.popup" timestamp="1576336552257">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="496" y="235" width="672" height="677" key="run.anything.popup/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576336552257" />
-    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup" timestamp="1576373662021">
+    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup" timestamp="1576444325344">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576373662021" />
+    <state x="503" y="232" width="672" height="666" key="search.everywhere.popup/0.0.1680.1020/1680.0.1600.870@0.0.1680.1020" timestamp="1576444325344" />
   </component>
 </project>
